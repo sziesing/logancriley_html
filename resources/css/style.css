@@ -18,15 +18,32 @@ header {
 }
 
 header h1 {
+    margin-left: 20px;
     float: left;
     font-size: 1.5rem;
 }
 
 header ul {
     float: right;
+    margin-right: 20px;
 }
 
 header li {
     display: inline-block;
-    padding: 15px;
+    padding: 8px;
+    margin: 7px;
+    transition: color 0.3s; /*NOTE: combine transitions with comma?*/
+    transition: background-color 0.1s;
+}
+
+header li:hover {
+    color: white;
+    background-color: black;
+}
+
+/*Work Section*/
+
+.gallery-flexbox {
+    display: flex;
+    
 }
