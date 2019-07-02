@@ -12,9 +12,14 @@ html {
 
 /*Header*/
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 header h1 {
     float: left;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 header ul {
